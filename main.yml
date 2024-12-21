@@ -28,6 +28,6 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
-          context: ./express-app
+          context: ../../express-app
           push: true
           tags: blakevarbaiheward/devopswithdockerpart3:latest
